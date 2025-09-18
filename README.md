@@ -5,7 +5,8 @@
     -> untereinander verlinked
 - style Element eingefügt, wird später durch CSS ersetzt
 - Gelerntes hinzugefügt, als Beispiel und Referenz
-- nächster Schritt: Tabelle erstellen (stelle ich erstmal hinten an)
+- Tabelle erstellt
+- nächster Schritt: Liste erstellen
 
 ## Mein Ziel
 - den jetzigen Unterricht sinnvoll umsetzten (ich befinde mich im LF10)

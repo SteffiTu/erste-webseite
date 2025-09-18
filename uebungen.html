@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Übungen</title>
+    </head>
+
+    <body style="background-color: rgb(240, 236, 231);">
+        <header>           
+        <nav>
+            <a href="index.html">Startseite</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="aboutme.html">Über mich</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="blog.html">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="current" href="#">&#10057; &hearts;</a>
+        </nav> 
+            <h1>Was ich zurzeit lerne</h1>
+        </header>
+
+        <main>
+            <h3>Formulare</h3>
+            <form action="#" method="get">
+                <!--name-->
+                <p>
+                <label for="name">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="name" name="name" placeholder="Maxi Musterfrau" required>
+                </p>
+
+                <!--email-->
+                <p>
+                <label for="email" method="get">E-Mail</label>&nbsp;&nbsp;&nbsp;
+                <input type="email" id="email" name="email" placeholder="example@mail.de" required>
+                </p>
+            </form>
+
+            <form action="#" method="post">
+                <!--passwort-->
+                <p>
+                <label for="password">Passwort</label>
+                <input type="password" id="password" name="password" placeholder="mind. 8- stellig" required>
+                </p>
+            </form>
+
+            <button type="submit">Absenden</button>
+            <hr>
+
+            <h3>Dropdown</h3>
+            <p>
+                <label for="thema">Themenbereiche</label><br>
+                <select id="thema" name="thema">
+                    <option value="" disabled selected>Bitte Themenbereich wählen</option>
+                    <option value="startseite">Startseite</option>
+                    <option value="aboutme">Über mich</option>
+                    <option value="blog">Blog</option>
+                    <option value="sonstiges">sonstiges</option>
+                </select>
+            </p>
+            <hr>
+
+            <h3>Nachrichtenbox</h3>
+            <p>
+                <label for="nachrichten">Schreib mir eine Nachricht &#9998;</label><br>
+                <textarea id="nachrichten" name="nachrichten" rows="5" cols="40" placeholder="Schreib was..."></textarea>
+            </p>
+            <hr>
+
+            <h3>Auswahl und Checkbox</h3>
+            <p>
+                Newsletter erhalten über:<br>
+                <input type="radio" id="music" name="music">
+                <label for="music">Musik</label><br>
+
+                <input type="radio" id="conzert" name="concert">
+                <label for="concert">Konzert</label><br>
+
+                <input type="radio" id="nope" name="nope">
+                <label for="nope">nope</label>        
+            </p>
+            <p>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <label for="checkbox">Newsletter abonnieren</label>
+            </p>
+            <hr>
+
+            <h3>Tabelle</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">OSI-Schicht</th>
+                        <th>Einordnung</th>
+                        <th>Einheiten</th>
+                        <th>Adressen</th>
+                        <th>Protokollbeispiele</th>
+                        <th>Kopplungselement</th>
+                    </tr>
+                </thead>                
+                <tbody>
+                    <!--application layer-->
+                    <tr>
+                        <td>7</td>
+                        <td>Anwendungsschicht<br>(Application Layer)</td>
+                        <td rowspan="3">Anwendungs-<br>orientiert</td>
+                        <td rowspan="3">Daten</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">DHCP<br>DND<br>HTTP/ HTTPS<br>MQTT<br>SMTP<br>SSL/ TLS</td>
+                        <td rowspan="4">Layer 4-7 Switch<br>Gateway<br>Firewall<br>Proxy<br>Server</td>
+                    </tr>
+                    <!--presentation layer-->
+                    <tr>
+                        <td>6</td>
+                        <td>Darstellungsschicht<br>(Presentation Layer)</td>
+                    </tr>
+                    <!--session layer-->
+                    <tr>
+                        <td>5</td>
+                        <td>Sitzungsschicht<br>(Session Layer)</td>
+                    </tr>
+                    <!--transport layer-->
+                    <tr>
+                        <td>4</td>
+                        <td>Transportschicht<br>(Transport Layer)</td>
+                        <td rowspan="4">Transport-<br>orientiert</td>
+                        <td>TCP - Segmente<br>
+                            UDP - Datagramme
+                        </td>
+                        <td>Ports</td>
+                        <td>TCP<br>UDP</td>
+                    </tr>
+                    <!--network layer-->
+                    <tr>
+                        <td>3</td>
+                        <td>Vermittlungsschicht<br>(Network Layer)</td>
+                        <td>Pakete</td>
+                        <td>IP-Adressen</td>
+                        <td>ICMP<br>IPv4/ IPv6<br>OSPF</td>
+                        <td>Router<br>Layer 3 Switch</td>
+                    </tr>
+                    <!--data link layer-->
+                    <tr>
+                        <td>2</td>
+                        <td>Sitzungsschicht<br>(Data Link Layer)</td>
+                        <td>Frames<br>(Datenrahmen)</td>
+                        <td>MAC-Adressen</td>
+                        <td>Ethernet<br>ARP<br>MAC<br>WLAN-Protokolle<br>(IEEE 802.11)</td>
+                        <td>Bridge, Switch<br>WLAN Access Point<br>Netzwerkkarten</td>
+                    </tr>
+                    <!--physical layer-->
+                    <tr>
+                        <td>1</td>
+                        <td>Bitübertragungsschicht<br>(Physical Layer)</td>
+                        <td>Bits</td>
+                        <td></td>
+                        <td>Ethernet<br>WLAN-Protokolle<br>(IEEE 802.11)</td>
+                        <td>Hub, Repeater<br>Netzwerkkabel<br>Netzwerkkarten</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+
+        </main>
+
+        <br><br><br><br><br>
+        <footer>
+            <p>&copy 2025 SteffiTu &diams;</p>
+        </footer>
+        
+    </body>
+</html>

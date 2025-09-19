@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(240, 236, 231, 0.489);
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav a{
+    display: block;
+    padding: 10px 60px;
+    text-decoration: none;
+    color: rgba(240, 236, 231, 0.489);
+    transition: all 0.5s ease;
+}
+
+nav a:hover{
+    background-color: rgba(240, 236, 231, 0.489);
+    color: #333;
+}
+
+nav a.current{
+    background-color: #454145;
+    font-weight: bold;
+}
+

@@ -6,10 +6,13 @@
 - style Element eingefügt, wird später durch CSS ersetzt
 - Gelerntes hinzugefügt, als Beispiel und Referenz
 - Tabelle erstellt
-- nächster Schritt: Liste erstellen
+- Ordnerstruktur angepasst: seperater Ordner für css und ein seperater Ordner für Unterseiten (sides)
+- css eingebunden für den Anfang
+- nav geändert
+- nächster Schritt: Liste erstellen, php
 
 ## Mein Ziel
 - den jetzigen Unterricht sinnvoll umsetzten (ich befinde mich im LF10)
-- Ich möchte endlich lernen mit GitHub umgehen zu können
+- Lernen wie man mit GitHub umgeht
 
 ## SteffiTu

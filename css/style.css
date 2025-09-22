@@ -1,13 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: rgba(240, 236, 231, 0.489);
     color: #333;
     font-family: 'Roboto', sans-serif;
 }
 
+.header{
+    background-color: #333;
+}
+
+h1{
+    background-color: #333;
+    color: rgba(240, 236, 231, 0.489);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
 nav ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 20px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     background-color: #333;
@@ -29,5 +47,12 @@ nav a:hover{
 nav a.current{
     background-color: #454145;
     font-weight: bold;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: rgba(198, 196, 193, 0.489);
+    padding: 5px;
+    text-align: center;
 }
 

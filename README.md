@@ -9,7 +9,7 @@
 - Ordnerstruktur angepasst: seperater Ordner für css und ein seperater Ordner für Unterseiten (sides)
 - css eingebunden für den Anfang
 - nav geändert
-- nächster Schritt: Liste erstellen, php
+- Anfang Grid und Flexbox
 
 ## Mein Ziel
 - den jetzigen Unterricht sinnvoll umsetzten (ich befinde mich im LF10)
